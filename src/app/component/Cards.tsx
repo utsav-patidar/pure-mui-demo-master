@@ -29,7 +29,7 @@ const Cards = () => {
         <Box
           key={index}
           sx={{
-            width: ["100%", "50%", "100%", "25%"], // Responsive widths
+            width: ["100%", "50%", "50%", "25%"], // Responsive widths
             p: "1rem",
           }}
         >

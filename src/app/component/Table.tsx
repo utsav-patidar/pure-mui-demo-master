@@ -15,12 +15,10 @@ import {
   Button,
   Typography,
 } from "@mui/material";
-import { useTheme as themeContext } from "@mui/material/styles";
 import { useSmallScreen as smallScreenContext } from "../context/smallScreeen";
 
 const TableContent = () => {
   const { smallScreen } = smallScreenContext();
-  const theme = themeContext();
 
   return (
     <Box sx={{ padding: "1rem", width: "100%" }}>

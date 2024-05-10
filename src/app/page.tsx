@@ -18,7 +18,6 @@ const Page = () => {
     setOpen(!open);
   };
   const [open, setOpen] = React.useState(false);
-  console.log(theme.palette["bg-body-white"]?.main, "color");
   return (
     <Box
       sx={{
@@ -50,7 +49,7 @@ const Page = () => {
             <Typography
               variant="h5"
               color={theme.palette.white.main}
-              fontSize="bold"
+              fontWeight="bold"
             >
               Projects
             </Typography>

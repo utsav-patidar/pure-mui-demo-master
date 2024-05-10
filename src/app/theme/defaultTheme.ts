@@ -11,10 +11,10 @@ import { DynamicPaletteOptions } from "../types/mui-types";
 const theme: Theme = createTheme({
   palette: { ...(generatePalette(PaletteColors) as DynamicPaletteOptions) },
   typography: {},
-  breakpoints: generateBreakPoints(ThemeOperator.MuiOp, BreakPoints) as Record<
-    string,
-    number
-  >,
+  // breakpoints: generateBreakPoints(ThemeOperator.MuiOp, BreakPoints) as Record<
+  //   string,
+  //   number
+  // >,
   components: {
     MuiAppBar: {
       styleOverrides: {
